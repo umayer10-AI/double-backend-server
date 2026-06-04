@@ -21,6 +21,7 @@ const client = new MongoClient(uri, {
 
 const run = async () => {
     try {
+        
     await client.connect();
 
     const db = client.db('auth')
